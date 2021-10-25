@@ -8,7 +8,7 @@ import WorkPage from "./pages/WorkPage";
 
 const App = () => {
     return (
-        <main className="h-screen">
+        <main className="h-full sm:h-screen">
             <LandingPage />
             <AboutPage />
             <WorkPage />

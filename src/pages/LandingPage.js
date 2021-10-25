@@ -2,8 +2,8 @@ import React from "react";
 
 function LandingPage() {
     return (
-        <div className=" h-5/6 grid">
-            <div className="grid md:grid-cols-2 text-center items-center  bg-landingGrey  ">
+        <div className=" sm:h-5/6 grid">
+            <div className="grid md:grid-cols-2 text-center items-center  bg-landingGrey gap-10 ">
                 <p className="text-8xl order-0 sm:order-0 animate-textSlide lg:text-9xl">hi</p>
                 <p className="text-5xl order-1 sm:order-1 ">bearded</p>
                 <p className="text-5xl order-3 sm:order-2">designer</p>
