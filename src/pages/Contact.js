@@ -5,7 +5,7 @@ function Contact() {
     return (
         <div className="h-screen grid ">
             <div className="grid md:grid-cols-2 text-center items-center  bg-contactRed ">
-                <div className="flex justify-center order-1 sm:order-0 flex-col items-center px-5  h-full patternBack3 ">
+                <div className="flex justify-center order-1 sm:order-0 flex-col items-center px-5  h-full patternBack4 ">
                     <form
                         action="https://formsubmit.co/williamtimlin@outlook.com"
                         method="POST"
