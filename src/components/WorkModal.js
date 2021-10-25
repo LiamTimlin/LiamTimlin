@@ -25,9 +25,9 @@ function WorkModal({ project }) {
 
             {modal && (
                 <div>
-                    <div className="fixed z-10 inset-0 overflow-y-auto flex bg-purple-700 bg-opacity-60 ">
+                    <div className="fixed z-20 inset-0 overflow-y-auto flex bg-purple-700 bg-opacity-60 ">
                         <div className="flex flex-col items-center justify-center rounded w-screen">
-                            <div className="h-auto  px-10 ">
+                            <div className="h-full sm:h-auto   px-10 ">
                                 <button className="w-full flex justify-end  pb-1">
                                     <AiOutlineCloseSquare onClick={toggleModal} className="text-3xl hover:text-aboutOrangeDark duration-500 ease-in-out" />
                                 </button>
