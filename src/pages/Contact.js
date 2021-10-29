@@ -9,14 +9,17 @@ function Contact() {
                     <form
                         action="https://formsubmit.co/williamtimlin@outlook.com"
                         method="POST"
-                        className="flex flex-col w-full text-left px-10 gap-3 bg-workGreyLight p-5 "
+                        className="flex flex-col w-5/6 text-left px-10 mb-5 pt-5 gap-3 bg-workGreyLight p-5 "
                     >
                         <p className="uppercase text-xl mb-3 animate-bounce text-center">Give me a yell</p>
                         <label>Your Name:</label>
                         <input type="text" name="name" required className="bg-contactBlue focus:bg-aboutOrangeLight h-10 px-3 " />
+                        <label>Email:</label>
+                        <input type="email" name="email" required className="bg-contactBlue focus:bg-aboutOrangeLight h-10 px-3 " />
                         <label className="mt-4">Message:</label>
                         <textarea type="text" name="message" required className="bg-contactBlue focus:bg-aboutOrangeLight h-28  px-3 " />
                         <input type="hidden" name="_next" value={Sent} />
+                        <input type="hidden" name="_next" value="https://liamtimlin.github.io/" />
                         <button
                             type="submit"
                             className="bg-green-500 w-full sm:w-28 text-xl p-3  text-center self-end mt-5 text-workGreyDark duration-500 ease-in-out transform hover:shadow-squareShadow"

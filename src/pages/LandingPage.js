@@ -8,7 +8,7 @@ function LandingPage() {
                 <p className="text-5xl order-1 sm:order-1 ">bearded</p>
                 <p className="text-5xl order-3 sm:order-2">designer</p>
                 <p className="text-8xl order-2 sm:order-3 animate-textSlide lg:text-9xl">i'm</p>
-                <p className="text-8xl order-4 sm:order-4 animate-textSlide lg:text-9xl">william</p>
+                <p className="text-8xl order-4 sm:order-4 animate-textSlide lg:text-9xl">Liam</p>
                 <p className="text-5xl order-5 sm:order-5">developer</p>
                 <div className="text-5xl order-5 sm:order-6 col-span-full justify-self-center animate-bounce">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20  " fill="none" viewBox="0 0 24 24" stroke="currentColor">
