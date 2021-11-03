@@ -3,9 +3,9 @@ import Sent from "../components/Sent";
 
 function Contact() {
     return (
-        <div className="h-screen grid ">
+        <div className="h-full grid ">
             <div className="grid md:grid-cols-2 text-center items-center  bg-contactRed ">
-                <div className="flex justify-center order-1 sm:order-0 flex-col items-center px-5  h-full patternBack4 ">
+                <div className="flex justify-center order-1 sm:order-0 flex-col items-center px-5  h-full patternBack4 mt-5">
                     <form
                         action="https://formsubmit.co/williamtimlin@outlook.com"
                         method="POST"
@@ -28,7 +28,7 @@ function Contact() {
                         </button>
                     </form>
                 </div>
-                <div className="grid text-left order-0 sm:order-1 justify-items-center  lg:justify-center space-y-5">
+                <div className="grid text-left order-0 sm:order-1 justify-items-center  lg:justify-center space-y-5 ">
                     <h1 className="text-7xl lg:text-9xl mx-0  sm:ml-40 z-10">
                         hi <br /> again
                     </h1>
