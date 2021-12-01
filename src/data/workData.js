@@ -10,6 +10,17 @@ const project = [
         link: "https://brewdog-matcher.herokuapp.com/",
         id: "1",
     },
+    {
+        img: "../images/a_w_project.png",
+        type: "Web App",
+        name: "Art & Water",
+        about: "A ReactJS side-project that helps you keep track of how many glasses of water you've drank. Plus a piece of art will be shown everytime the number changes.",
+        projectImage1: "../images/a_w_1.png",
+        projectImage2: "../images/a_w_2.png",
+        tools: "ReactJS, Axios, Tailwind CSS",
+        link: "https://suspicious-nightingale-d2800c.netlify.app/",
+        id: "2",
+    },
 ];
 
 export default project;
