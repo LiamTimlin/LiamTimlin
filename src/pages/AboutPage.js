@@ -30,7 +30,7 @@ function AboutPage() {
                                     <p>HTML5/CSS3</p>
                                     <p>JavaScript</p>
                                     <p>ReactJS</p>
-                                    <p>Tailwind</p>
+                                    <p>Tailwind CSS</p>
                                 </div>
                             </div>
                             <div className="bg-landingGrey w-52 p-4 lg:p-10 flex flex-col items-center gap-5 duration-500 ease-in-out transform hover:shadow-squareShadow hover:bg-gray-100">
